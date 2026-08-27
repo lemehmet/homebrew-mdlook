@@ -10,28 +10,28 @@
 class Mdlook < Formula
   desc "Terminal markdown reader that reflows to your terminal width"
   homepage "https://github.com/lemehmet/mdlook"
-  version "0.3.2"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/lemehmet/mdlook/releases/download/v0.3.2/mdlook-v0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "20cef651f93160e279e36f9aca1424876b9f4df696ee2d24849145b2bda1efb4"
+      url "https://github.com/lemehmet/mdlook/releases/download/v0.4.0/mdlook-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d9f7eb16623fa0d3bf7cfa6c97f5ab65b790d7f8e261f1c5a9941aa009d70551"
     end
     on_intel do
-      url "https://github.com/lemehmet/mdlook/releases/download/v0.3.2/mdlook-v0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "d8cd530d84bfd6aa956e5d79b2418835dc68fc672d46f3fdf7c18a3b3665f9bc"
+      url "https://github.com/lemehmet/mdlook/releases/download/v0.4.0/mdlook-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b6c18c01c904bbecafccd4a51da4c591bf0f8ae33c2ac88d15d2e4e40ec73d19"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/lemehmet/mdlook/releases/download/v0.3.2/mdlook-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6a3a7fd53be40f24ebc31d0b9515869a46aef9b1a5da715ee5ea3a1c62c3569d"
+      url "https://github.com/lemehmet/mdlook/releases/download/v0.4.0/mdlook-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b1a7f6baf39b3abf8dd2b4c9eb917fd6e00be6d768d384f2f512475d550adc00"
     end
     on_arm do
-      url "https://github.com/lemehmet/mdlook/releases/download/v0.3.2/mdlook-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e448ac1234ec782242662985bff61308fb9c1e3cd6b6ab401578db973c179b1f"
+      url "https://github.com/lemehmet/mdlook/releases/download/v0.4.0/mdlook-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5cb4215a3d019b32108a3988658cb61e9bb8eea07a178f00d40d847b0058e89b"
     end
   end
 
